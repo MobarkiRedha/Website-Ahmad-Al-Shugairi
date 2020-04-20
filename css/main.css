@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+/* 
+***********************************************************************************************************************
+                                           Debut partie navigation
+***********************************************************************************************************************
+ */
+
+img#logo{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+}
+
+header {
+    width: 320px;
+    height: 60px;
+}
+
+a:hover {
+    color:#4380cc;
+    font-size: large;
+    text-decoration: underline;
+}
+
+a{
+    color: #7398c5;
+}
+
+a#website {
+    text-decoration: none;
+    color: #172035;
+    width: 500px;
+    height: 30px;
+    margin: 0px;
+    position: absolute;
+    left: 60px;
+    top: 35px;
+}
+
+a#website:hover {
+    color:#4e525a;
+    font-size: larger;
+    text-decoration: underline #7687aa;
+}
+
+nav {
+    background-color: #172035;
+    width: 1311px;
+    height: 80px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+a.pages {
+    line-height: 4;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-right: 50px;
+    margin-top: 15px;
+    position: relative;
+    left: 40px;
+    padding: 30px;
+    padding-top: 27px;
+}
+
+a.pages:hover {
+    background-color:#685399;
+    cursor: pointer;
+    text-decoration: underline #685399;
+}
+
+a.pages:active {
+    background-color:#685399;
+    text-decoration: underline #685399;
+}
+
+/* 
+***********************************************************************************************************************
+                                           Debut partie navigation
+***********************************************************************************************************************
+ */
+
+/* 
+***********************************************************************************************************************
+                                           Debut Page Index
+***********************************************************************************************************************
+ */
+
+body{
+    font-family: 'Comic Neue', serif;
+    margin: 0px;
+}
+
+img#ahmadpic {
+    width: 500px;
+    height: 500px;
+    margin-left: 61px;
+    border: 10px solid #172035;
+}
+
+h1 {
+    font-weight: bold;
+    text-decoration: #172035;
+    font-size: 3rem;
+    margin-left: 120px;
+}
+
+p {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 8px;
+}
+
+table#info {
+    position: absolute;
+    top: 310px;
+    left: 650px;
+    width: 450px;
+    height: 445px;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding-left: 20px;
+    text-align: left;
+    border-bottom: 1px solid #89919b;
+}
+
+tr:hover {background-color:#f5f5f5;}
+
+img#flagpic{
+    width: 100px;
+	height: 50px;
+    margin-left: 100px;
+}
+
+img#gemeauxpic{
+    width: 100px;
+	height: 50px;
+    margin-left: 100px;
+}
+
+/* 
+***********************************************************************************************************************
+                                            Fin Page Index 
+***********************************************************************************************************************
+ */
+
+ /* 
+***********************************************************************************************************************
+                                            Debut Page La Vie
+***********************************************************************************************************************
+ */
+
+ol/*#contenu*/ {
+    width: 1300px;
+    height: 130px;
+    margin-left: 129px;
+    margin-top: 25px;
+}
+
+em {
+    margin-left: 150px;
+}
+
+h3 {
+    margin-left: 150px;
+}
+
+ul#liste, ul#contenu {
+    margin-left: 150px;
+}
+
+ /* 
+***********************************************************************************************************************
+                                            Fin Page La Vie 
+***********************************************************************************************************************
+ */
+
+ /* 
+***********************************************************************************************************************
+                                            Debut Page Livres 
+***********************************************************************************************************************
+ */
+
+table.book{
+    margin-left: 10px;
+}
+
+img#khawatir1, img#khawatir2, img#khawatir3, img#lawpic, img#gandipic, img#fourtypic {
+    border: #172035 5px solid;
+}
+
+div#firstbook , div#secondbook, div#thirdbook, div#fourthbook, div#fifthbook, div#sixthbook{
+    width: 1300px;
+    height: 580px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: 70px;
+    left: 0px;
+}
+
+div#sixthbook{
+    top: 130px;
+}
+
+section#book1, section#book2, section#book3, section#book4, section#book5, section#book6 {
+    width: 318px;
+    height: 560px;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 10px;
+    left: 180px;
+}
+
+section#khawatir1, section#khawatir2, section#khawatir3, section#law, section#voyage, section#fourty {
+    width: 900px;
+    height: 510px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    left: 500px;
+}
+
+section#khawatir1{
+    top: 20px;
+}
+
+section#khawatir2 {
+    top: 90px;
+}
+
+section#khawatir3 { 
+    top: 70px;
+}
+
+section#law{
+    top: 130px;
+}
+
+section#voyage{
+    top: 110px;
+}
+
+section#fourty{
+    top: 0px;
+}
+
+ /* 
+***********************************************************************************************************************
+                                            Fin Page Livres 
+***********************************************************************************************************************
+*/
+
+/* 
+***********************************************************************************************************************
+                                            Debut Page Shows 
+***********************************************************************************************************************
+ */
+
+div#video {
+    width: 360px;
+    height: 520px;
+    position: absolute;
+    top: 1177px;
+    left: 700px;
+    padding: 0px;
+    margin: 0px;
+}
+
+p#vid {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: 525px;
+    left: 40px;
+}
+
+video{
+    width: 340px;
+    top: 260px;
+    padding: 0px;
+    margin: 0px;
+    border: 10px #172035 solid;
+    position: absolute;
+
+}
+
+ /* 
+***********************************************************************************************************************
+                                            Fin Page Shows 
+***********************************************************************************************************************
+ */
+
+/* 
+***********************************************************************************************************************
+                                            Debut Partie Fotter 
+***********************************************************************************************************************
+ */
+
+footer {
+    width:1311px;
+    height: 150px;
+    background: #172035;
+    position: relative;
+    margin-top: 100px;
+    left: 0;
+}
+
+a.rs {
+    vertical-align: middle;
+    padding: 40px;
+    padding-left: 20px;
+    padding-top: 25px;
+    font-size: 15px;
+    width: 30px;
+    height: 10px;
+    position: absolute;
+    top: 45px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    border-radius: .99rem;
+}
+a.rs.twitter{
+    background: #0082e6;
+    margin-left: 40px;
+}
+
+a.rs.twitter:hover{
+    background: #4bb1ff;
+}
+
+a.rs.instagram{
+    background: #cc3876;
+    left: 140px;
+}
+
+a.rs.instagram:hover{
+    background: rgb(231, 117, 197);
+}
+
+a.rs.facebook {
+    background: #1a3f85;
+    left: 240px;
+}
+
+a.rs.facebook:hover {
+    background: #5375b4;
+}
+
+a.rs.youtube {
+    background: red;
+    left: 340px;
+}
+
+a.rs.youtube:hover {
+    background: rgb(214, 100, 100);
+}
+
+a.rs.wikipedia {
+    background: rgb(80, 76, 76);
+    left: 440px;
+}
+
+a.rs.wikipedia:hover{
+    background: rgb(139, 131, 131);
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    width: 290px;
+    height: 30px;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 110px;
+}
+
+a#mail {
+    color: white;
+}
+
+a#link {
+    color: #7398c5;
+    margin-left: 150px;
+}
+
+a#link:hover {
+    color:#4380cc;
+    font-size: large;
+}
+ 
+ /* 
+***********************************************************************************************************************
+                                            Fin Partie Fotter 
+***********************************************************************************************************************
+ */
